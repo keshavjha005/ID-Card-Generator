@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    background-image: url(https://img.freepik.com/free-vector/flat-geometric-background_52683-62008.jpg?w=740&t=st=1690716615~exp=1690717215~hmac=c5587d03548ac0c5ca6fe1265ff86c66957f52b6b3372f64a0752001b4609d02);
+    background-position: center ;
+    background-repeat: repeat;}
+h3{
+    margin-left: -1rem;
+}
+form{
+    color: aliceblue;
+    background-color: rgb(105, 223, 213);
+    opacity: 92%;
+    border: #252525 solid 0.5px;
+    position: absolute;
+    width: 30rem;
+    padding: 2rem;
+    margin: 2rem;
+    top: 25%;
+    left: 35%;
+    border-radius: 12px;
+    transform: translate(-20%, -20%);
+    text-align: center;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+.fullname input{
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 12px;
+}
+.fullname {
+   margin: 1rem;
+   width: 13rem;
+   border-radius: 12px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+    margin-left: 4rem;
+}
+button{
+    margin: 5px;
+    border-radius: 8px;
+    width: 8rem;
+    height: 3rem;
+}
+.but1{
+    color: aliceblue;
+    background-color: rgb(6, 63, 6);
+    text-align: center;
+    cursor: pointer;
+}
+.but1:hover{
+    color: green;
+    background-color: white;
+}
+.but2{
+    color: aliceblue;
+    background-color: rgb(5, 28, 54);
+    text-align: center;
+    cursor: pointer;
+}
+.but2:hover{
+    color: rgb(182, 67, 32);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: white;
+}
+.card{
+    color: blue;
+}
+@media screen and  (max-width: 760px){
+    form{
+        position: absolute;
+        width: 80%;
+        padding: 1rem;
+        margin: 0.8rem;
+        top: 25%;
+        left: 20%;
+        border-radius: 12px;
+        transform: translate(-20%, -20%);
+    }
+    .fullname input{
+        width: 80%;
+        padding: 1rem;
+        border-radius: 12px;
+    }
+    .fullname {
+       margin: 1rem;
+       width: 90%;
+       border-radius: 12px;
+    }
+    
+}
+@media screen and  (max-width: 960px){
+    form{
+        position: absolute;
+        width: 80%;
+        padding: 1rem;
+        margin: 0.8rem;
+        top: 25%;
+        left: 20%;
+        border-radius: 12px;
+        transform: translate(-20%, -20%);
+        text-align: center;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+    }
+    .fullname input{
+        width: 80%;
+        padding: 1rem;
+        border-radius: 12px;
+    }
+    .fullname {
+       margin: 1rem;
+       width: 90%;
+       border-radius: 12px;
+    }
+    
+}

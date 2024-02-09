@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/flat-geometric-background_52683-62008.jpg?w=740&t=st=1690716615~exp=1690717215~hmac=c5587d03548ac0c5ca6fe1265ff86c66957f52b6b3372f64a0752001b4609d02);
+    background-position: center ;
+    background-repeat: repeat;
+    
+}
+.card{
+    width: 15rem;
+    height: fit-content;
+    padding: 1rem;
+    background-image: url(https://i.pinimg.com/736x/65/a1/28/65a128ad63d9110ebd2629595460a75c.jpg);
+    color: rgb(7, 36, 61);    
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: rgb(3, 3, 43) solid 0.5px;
+    position:absolute;
+    top: 20%;
+    left: 40%;
+    text-align: center;
+    transform: translate(-10%, -15%);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0.8, 0.8);
+}
+#companyName{
+    display: flext;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    align-self: center;
+}
+#companyName img{
+    width: 25px;
+    height: 25px;
+    margin-right: 0.7rem;
+}
+.profilepic img{
+    width: 6rem;
+    height: 6rem;
+    border: #770d0d solid 0.8px;
+    border-radius: 50px;
+    justify-self: center;    
+    margin-bottom: 1.5rem;
+}
+.name{
+    font-size: 18px;
+    color: #021838;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.position{
+    color: rgb(163, 121, 6);
+    font-style: italic;
+    justify-self: center;
+    margin-bottom: 1rem;
+}
+.detail{
+    text-align: justify;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 600;
+    color: #020730;
+    margin-bottom: 2rem;
+    word-spacing: 5px;
+    margin-left: 25%;
+    line-height: 20px;
+}
+.qrcode img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border: #020730 solid 0.5px;
+}
+@media screen and  (max-width: 760px){
+    .card{
+        position:absolute;
+        top: 25%;
+        left: 20%;
+        text-align: center;
+        transform: translate(-10%, -15%);
+        box-shadow: 4px 4px 6px rgba(0, 0, 0.8, 0.8);
+    }
+    
+}
